@@ -1,5 +1,5 @@
 # Live-imgSSTV
-RS41-SDE is a script developed as part of the LuniSpace project, a school initiative carried out by the Licei Lunigianesi high school that aims to launch weather radiosondes together with real-time image transmission systems.
+Live-imgSSTV is a script developed as part of the LuniSpace project, a school initiative carried out by the Licei Lunigianesi high school that aims to launch weather radiosondes together with real-time image transmission systems.
 
 After launching several image transmission systems, we decided to also use SSTV via rpitx, the software developed by F5OEO to transmit directly from a Raspberry Pi. During our first SSTV transmission, three test monoscopes were broadcast alternately. Subsequently, we decided to use this system to transmit images captured in real time. The idea came from the rpitx software itself; in fact, by overwriting the audio file in the directory set in rpitx, it is possible to automatically transmit images created on the spot. Live-imgSSTV allows you to create an image suitable for weather balloon launches using a real-time image and some meteorological data, all within a single graphic.
 
