@@ -17,3 +17,8 @@ python --version
 If Python is not installed, you will need to download and install it from the official website: https://www.python.org/downloads/
 #
 Next, you need to install the `pip` library, Python’s package manager, as it allows you to easily add all the necessary external libraries. In this case, in the next step we will install `pillow`, `pyserial`, and `pysstv`. You can download it and find installation instructions here: https://pip.pypa.io/en/stable/installation/ 
+#
+Next, you need to install the pillow, pyserial, and pysstv libraries. To install them, run this command:
+```bash
+pip install pillow pyserial pysstv
+```
